@@ -26,7 +26,6 @@ if (isset($_GET['bookingId'])) {
     <meta charset="UTF-8">
     <title>View Booking</title>
     <style>
-        /* Same styles as before, just for the booking information and button */
         * {
             margin: 0;
             padding: 0;
