@@ -155,6 +155,11 @@ body{
 .submit{
     width: 100%;
 }
+.files{
+    display: flex;
+    margin-top: 30px;
+    gap: 8px;
+}
 .link{
     margin-bottom: 15px;
 }

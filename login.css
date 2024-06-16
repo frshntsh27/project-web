@@ -51,44 +51,6 @@ body{
 .btn.white-btn:hover{
     background: rgba(255, 255, 255, 0.3);
 }
-.side-bar{
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(15px);
-    width: 290px;
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    left: 0;
-    overflow-y: auto;
-}
-.side-bar .menu{
-    width: 100%;
-    margin-top: 80px;
-}
-.side-bar .menu .item{
-    position: relative;
-    cursor: pointer;
-}
-.side-bar .menu .item a{
-    color: white;
-    font-size: 16px;
-    text-decoration: none;
-    display: block;
-    padding: 5px 30px;
-    line-height: 60px;
-}
-.side-bar .menu .item a:hover{
-    background: #40e0d0;
-    transition: 0.3s ease;
-}
-.side-bar .menu .toggle-btn{
-    background: rgba(255, 255, 255, 0);
-    font-size: 30px;
-    cursor: pointer;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-}
 .container{
     display: flex;
     align-items: center;
