@@ -3,7 +3,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "manageparkingarea";
+$dbname = "fkpark";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -278,7 +278,7 @@ foreach ($parkingTotals as $vehicleType => $locations) {
                             <th>Vehicle Type</th>
                             <th>Location</th>
 							<th>Parking Number</th>
-                            <th>Date</th>
+                            <th>Date & Time</th>
                             <th>Availability Status</th>
 							<th>Closure Reason</th>
                             <th>QR Image</th>
